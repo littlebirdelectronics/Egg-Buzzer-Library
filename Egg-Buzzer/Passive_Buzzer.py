@@ -1,6 +1,5 @@
 import sys
 import RPi.GPIO as GPIO
-import time
 
 class Buzzer:
     def __init__(self, pin):
