@@ -31,7 +31,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name='Egg_Buzzer',
     packages=find_packages(include=['Egg_Buzzer']),
-    version='0.1.1',
+    version='0.1.2',
     description='Library for passive Buzzer Egg module',
     long_description=long_description,
     long_description_content_type="text/markdown",
