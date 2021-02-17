@@ -1,8 +1,6 @@
 #!/bin/bash
 
-
-
-printf "Littlebird Electronics -- Egg Module\nEgg-Buzzer python installer"
+printf "Little Bird Electronics -- Egg Module\nEgg-Buzzer Python Installer"
 
 if python --version 2>&1 | grep -q '^Python 3\.'; then
     printf "Found python"
@@ -16,4 +14,4 @@ else
     printf "This library requires python3, we could not find python3"
 fi
 
-printf "Done!\n"
+printf "Done!\n\n"
