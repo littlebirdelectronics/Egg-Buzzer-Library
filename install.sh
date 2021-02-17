@@ -12,7 +12,7 @@ elif [ -f "/usr/bin/python3" ]; then
     printf "Found python3"
     printf python --version
     python setup.py install
-else; then
+else
     printf "This library requires python3, we could not find python3"
 fi
 
