@@ -15,4 +15,5 @@ class Buzzer:
         self.__buz.ChangeFrequency(frequency)
     
     def Stop(self):
-        self.__buz.stop();
+        self.__buz.stop()
+        GPIO.cleanup()
