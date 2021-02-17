@@ -1,7 +1,6 @@
-"""
 MIT License
 
-Copyright (c) 2021 Littlebird Electronics
+Copyright (c) [year] [fullname]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,24 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-"""
-
-from setuptools import find_packages, setup
-
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
-
-
-setup(
-    name='Egg_Buzzer',
-    packages=find_packages(include=['Egg_Buzzer']),
-    version='0.1.1',
-    description='Library for passive Buzzer Egg module',
-    long_description=long_description,
-    long_description_content_type="text/markdown",
-    author='Lewis Hamilton',
-    author_email='lewis@littlebird.com.au',
-    license='MIT',
-    url='https://littlebird.com.au',
-    install_requires=['rpi.gpio']
-)
