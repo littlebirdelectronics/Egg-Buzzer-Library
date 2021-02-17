@@ -4,7 +4,7 @@ Egg-Buzzer is a Littlebird Electronics Egg module with a buzzer attached, this i
 # To Install
 ## Automatically
 todo
-## Manuall
+## Manually
 ```git clone https://github.com/littlebirdelectronics/Egg-Buzzer-Library.git ```
 
 ```cd Egg-Buzzer-Library```
